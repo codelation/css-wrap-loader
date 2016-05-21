@@ -1,7 +1,7 @@
 {
   "name": "sass-wrap-loader",
   "description": "Wrap Sass with a body code block based on the required resource.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Brian Pattison",
     "email": "brian@codelation.com",
