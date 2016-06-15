@@ -10,7 +10,7 @@ module.exports = function(source) {
                               .slice(0, 2)
                               .join('/');
 
-  var before = 'body[data-view-name="' + viewName + '"] {';
+  var before = '[data-view-name="' + viewName + '"] {';
   var after = '}';
 
   return [].concat(before, source, after).join('\n');
